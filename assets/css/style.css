@@ -215,3 +215,61 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+    .main-section {
+      width: 640px;
+      margin-bottom: 450px;
+    }
+    #masthead .container {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    nav {
+      margin-right: 40px;
+    }
+    .work {
+      width: 265px;
+      
+    }
+} 
+
+@media screen and (max-width: 768px) {
+   .main-section{
+    width: 90%;
+    margin-left: 40px;
+    
+  }
+  
+  .work {
+    width:268px;
+
+  }
+  nav {
+    margin-right: 80px;
+  }
+  .auth-image {
+    width: 325px;
+  }
+  
+  
+}
+@media screen and (max-width: 640px) {
+  .main-section {
+    margin-top: 50px;
+  }
+  .auth-image {
+    width:500px;
+    margin-bottom: 20px;
+  }
+  .work {
+    width: 510px;
+  }
+  #logo {
+    width:100%;
+    margin-left: -40px;
+  }
+  nav {
+    margin-right: 240px;
+  }
+}
